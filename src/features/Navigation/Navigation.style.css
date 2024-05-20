@@ -1,0 +1,24 @@
+.navigation-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A1DD70;
+    width: 100%;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: large;
+    gap: 20px;
+}
+
+.navigation-style a {
+    color: beige;
+}
+
+.navigation-links {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 15px;
+}
