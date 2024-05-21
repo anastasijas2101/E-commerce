@@ -1,5 +1,6 @@
 body {
     background-color: #C738BD;
+    color: #F8F9D7;
 }
 
 .full-div {
@@ -36,9 +37,14 @@ body {
 
 .left-div hr {
     width: 100%;
+    background-color: #F8F9D7;
+    border: none;
+    height: 2px;
 }
 
 .left-div p {
     font-size: small;
     padding-bottom: 10px;
+    color: #E3E1D9;
+
 }

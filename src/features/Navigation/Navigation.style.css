@@ -10,7 +10,7 @@
     right: 0;
     font-size: large;
     gap: 20px;
-    border-bottom: 2px solid black;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
 }
 
 .navigation-style a {
