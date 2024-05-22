@@ -11,10 +11,12 @@
     font-size: large;
     gap: 20px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    z-index: 1;
 }
 
 .navigation-style a {
     color: #F8F9D7;
+    text-decoration: none;
 }
 
 .navigation-links {
