@@ -29,7 +29,8 @@ const SecondPage = () => {
         <>
             <div className="full-div1">
                 <h2>Beautiful presentations made easy.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam adipisci vero perferendis soluta pariatur ipsum quas dolorem obcaecati quo.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam adipisci vero perferendis soluta pariatur ipsum quas dolorem obcaecati quo.
+                    Ut enim ad minim veniam, quis nostrud exercitation.</p>
                 <div className='bottom-div'>
                     {component.map((item) => (
                         <SecondPageItem

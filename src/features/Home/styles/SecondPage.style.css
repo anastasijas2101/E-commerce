@@ -7,7 +7,15 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 120px;
+    padding: 105px;
+    color: #850F8D;
+
+}
+
+.full-div1 p {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
 }
 
 .bottom-div {

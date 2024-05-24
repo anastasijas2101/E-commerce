@@ -6,7 +6,8 @@ body {
 .full-div {
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
+    padding: 30px;
+    padding-bottom: 0px;
     align-items: center;
 }
 
@@ -33,6 +34,7 @@ body {
 .left-div h1 {
     padding: 0;
     margin-bottom: 0;
+    font-size: 50px;
 }
 
 .left-div hr {
