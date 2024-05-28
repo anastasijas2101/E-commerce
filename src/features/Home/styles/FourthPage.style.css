@@ -1,21 +1,21 @@
-.full-page-div {
+.fourth-div {
     display: flex;
     flex-direction: column;
     gap: 20px;
     background-color: #E1AFD1;
     color: #850F8D;
-    padding: 105px;
+    padding: 90px;
     justify-content: center;
     align-items: center;
 }
 
-.bottom-page-div {
+.bottom-fourth-div {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-.item-div1 {
+.fourth-item-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,18 +31,18 @@
     font-size: large;
 }
 
-.item-div1 p {
+.fourth-item-div p {
     text-align: center;
     color: rgb(194, 117, 169);
     font-size: small;
 }
 
-.item-div1 img {
+.fourth-item-div img {
     max-width: 100px;
     width: 100%;
 }
 
-.item-div1 button {
+.fourth-item-div button {
     max-width: 120px;
     width: 100%;
     background-color: #C738BD;

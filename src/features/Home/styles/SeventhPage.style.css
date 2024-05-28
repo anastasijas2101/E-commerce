@@ -1,0 +1,14 @@
+.seventh-div {
+    background-color: #850F8D;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.seventh-div footer {
+    padding-top: 27px;
+    font-size: small;
+    color: rgba(245, 245, 245, 0.614);
+}
