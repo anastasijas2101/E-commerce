@@ -1,4 +1,4 @@
-.full-div1 {
+.second-div {
     display: flex;
     flex-direction: column;
     background-color: #E1AFD1;
@@ -12,13 +12,13 @@
 
 }
 
-.full-div1 p {
+.second-div p {
     max-width: 800px;
     width: 100%;
     text-align: center;
 }
 
-.bottom-div {
+.bottom-second-div {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -27,7 +27,7 @@
     padding: 20px;
 }
 
-.item-div {
+.second-item-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,14 +36,14 @@
     padding: 20px;
 }
 
-.item-div p {
+.second-item-div p {
     max-width: 250px;
     width: 100%;
     font-size: small;
     text-align: center;
 }
 
-.item-div img {
+.second-item-div img {
     max-width: 60px;
     width: 100%;
 }

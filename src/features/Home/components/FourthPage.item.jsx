@@ -3,7 +3,7 @@ import '../styles/FourthPage.style.css'
 
 const FourthPageItem = ({ img, title, text, price }) => {
     return (
-        <div className='item-div1'>
+        <div className='fourth-item-div'>
             <img src={img} alt="headphonesIcon" />
             <h3>{title}</h3>
             <p>{text}</p>

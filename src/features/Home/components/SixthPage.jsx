@@ -27,9 +27,9 @@ const SixthPage = () => {
     ])
 
     return (
-        <div className='sixth-page-div'>
+        <div className='sixth-div'>
             <h1>What Our Clients Say</h1>
-            <div className='client-div'>
+            <div className='client-sixth-div'>
                 {clients.map((client) => (
                     <SixthPageItem
                         img={client.img}

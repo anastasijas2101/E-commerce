@@ -27,9 +27,9 @@ const FourthPage = () => {
     ])
 
     return (
-        <div className='full-page-div'>
+        <div className='fourth-div'>
             <h1>Our Packages</h1>
-            <div className='bottom-page-div'>
+            <div className='bottom-fourth-div'>
                 {items.map((item) => (
                     <FourthPageItem
                         img={item.img}

@@ -3,50 +3,11 @@ body {
     color: #F8F9D7;
 }
 
-.full-div {
+.first-div {
     display: flex;
     flex-direction: column;
     padding: 30px;
     padding-bottom: 0px;
     align-items: center;
-}
-
-.right-div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.right-div img {
-    max-width: 600px;
-    width: 100%;
-
-}
-
-.left-div {
-    max-width: 450px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.left-div h1 {
-    padding: 0;
-    margin-bottom: 0;
-    font-size: 50px;
-}
-
-.left-div hr {
-    width: 100%;
-    background-color: #F8F9D7;
-    border: none;
-    height: 2px;
-}
-
-.left-div p {
-    font-size: small;
-    padding-bottom: 10px;
-    color: #E3E1D9;
-
+    padding-top: 75px;
 }

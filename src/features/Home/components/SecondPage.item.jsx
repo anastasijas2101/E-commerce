@@ -2,7 +2,7 @@ import '../styles/SecondPage.style.css'
 
 const SecondPageItem = ({ img, title, text }) => {
     return (
-        <div className="item-div">
+        <div className="second-item-div">
             <img src={img} alt={title} />
             <h2>{title}</h2>
             <p>{text}</p>

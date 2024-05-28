@@ -1,4 +1,4 @@
-.full-div2 {
+.third-div {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.left-div-style {
+.left-third-div {
     background-color: #E1AFD1;
     color: #850F8D;
     display: flex;
@@ -20,25 +20,25 @@
     border: 2px solid #E1AFD1;
 }
 
-.left-div-style h1 {
+.left-third-div h1 {
     margin-bottom: 0;
     max-width: 450px;
     width: 100%;
 }
 
-.left-div-style p {
+.left-third-div p {
     max-width: 450px;
     width: 100%;
 }
 
-.right-div-style {
+.right-third-div {
     align-items: center;
     border: 2px solid #E1AFD1;
     box-shadow: 2px 2px 4px 2px rgba(.2, .2, .2, .2);
     border-left: 0px;
 }
 
-.right-div-style img {
+.right-third-div img {
     max-width: 445px;
     width: 100%;
 }

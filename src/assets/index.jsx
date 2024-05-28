@@ -5,5 +5,5 @@ const curiousCat = () => {
 }
 
 export {
-    curiousCat,
+    curiousCat
 }

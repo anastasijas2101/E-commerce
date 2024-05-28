@@ -1,4 +1,4 @@
-.full-page-div1 {
+.fifth-div {
     display: flex;
     flex-direction: column;
     padding: 40px;
@@ -9,7 +9,7 @@
     padding-bottom: 25px;
 }
 
-.top-page-div {
+.top-fifth-div {
     display: flex;
     flex-direction: column;
     background-color: #E1AFD1;
@@ -22,7 +22,7 @@
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .2);
 }
 
-.input-div {
+.input-fifth-div {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -33,7 +33,7 @@
     align-items: center;
 }
 
-.input-div input {
+.input-fifth-div input {
     border: 2px solid #C738BD;
     border-radius: 5px;
     max-width: 250px;
@@ -42,14 +42,14 @@
     padding: 5px;
 }
 
-.input-div button {
+.input-fifth-div button {
     background-color: #C738BD;
     color: whitesmoke;
     max-width: 250px;
     width: 100%;
 }
 
-.bottom-page-div1 {
+.bottom-fifth-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,25 +57,25 @@
     padding: 10px;
 }
 
-.bottom-page-div1 p {
+.bottom-fifth-div p {
     max-width: 600px;
     width: 100%;
     text-align: center;
 }
 
-.bottom-page-div1 ul {
+.bottom-fifth-div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     list-style: none;
 }
 
-.bottom-page-div1 li {
+.bottom-fifth-div li {
     padding-right: 20px;
     padding-left: 10px;
 }
 
-.bottom-page-div1 li::marker {
+.bottom-fifth-div li::marker {
     content: '✓';
     color: whitesmoke;
 }
