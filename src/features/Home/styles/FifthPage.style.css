@@ -1,0 +1,81 @@
+.full-page-div1 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #C738BD;
+    gap: 10px;
+    padding-bottom: 25px;
+}
+
+.top-page-div {
+    display: flex;
+    flex-direction: column;
+    background-color: #E1AFD1;
+    color: #850F8D;
+    max-width: 900px;
+    width: 100%;
+    height: 260px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.input-div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-div input {
+    border: 2px solid #C738BD;
+    border-radius: 5px;
+    max-width: 250px;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+}
+
+.input-div button {
+    background-color: #C738BD;
+    color: whitesmoke;
+    max-width: 250px;
+    width: 100%;
+}
+
+.bottom-page-div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.bottom-page-div1 p {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.bottom-page-div1 ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    list-style: none;
+}
+
+.bottom-page-div1 li {
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.bottom-page-div1 li::marker {
+    content: '✓';
+    color: whitesmoke;
+}
