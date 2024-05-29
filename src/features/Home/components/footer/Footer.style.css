@@ -19,3 +19,35 @@
 .footer-style img:hover {
     filter: grayscale(0);
 }
+
+@media only screen and (max-width:1024px) {
+    .footer-style {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:860px) {
+    .footer-style img {
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .footer-style {
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .footer-style {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        height: 100px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .footer-style img {
+        width: 50%;
+    }
+}
