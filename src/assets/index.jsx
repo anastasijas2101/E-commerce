@@ -1,9 +1,9 @@
 import curiousCatLogo from './curious-cat.png'
 
-const curiousCat = () => {
+const CuriousCat = () => {
     return <img src={curiousCatLogo} alt="curious-cat-logo" />
 }
 
 export {
-    curiousCat
+    CuriousCat
 }

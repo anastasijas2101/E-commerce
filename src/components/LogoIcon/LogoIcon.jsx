@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
-import logo from '../../assets/curious-cat.png'
 import './LogoIcon.style.css'
+import { CuriousCat } from '../../assets'
 
 const LogoIcon = () => {
     const router = useNavigate();
@@ -11,7 +11,7 @@ const LogoIcon = () => {
 
     return (
         <div className='logo-icon' onClick={() => handleClickLogo()}>
-            <img src={logo} alt='curiousCatLogo' />
+            <CuriousCat />
         </div>
     )
 }
