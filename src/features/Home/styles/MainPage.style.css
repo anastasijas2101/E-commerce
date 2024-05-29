@@ -39,3 +39,69 @@
     color: #fbb9f6;
 
 }
+
+@media only screen and (max-width: 1024px) {
+    .first-right-div img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .first-left-div {
+        width: 60%;
+    }
+
+    .first-left-div h1 {
+        font-size: 40px;
+    }
+
+    .first-left-div p {
+        font-size: smaller;
+    }
+
+    .first-left-div button {
+        max-width: 120px;
+        width: 100%;
+        font-size: medium;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .first-right-div {
+        padding-bottom: 20px;
+    }
+
+    .first-right-div img {
+        width: 40%;
+    }
+
+    .first-left-div hr {
+        height: 1.5px;
+    }
+
+    .first-left-div h1 {
+        font-size: 30px;
+    }
+
+    .first-left-div p {
+        font-size: 10px;
+    }
+
+    .first-left-div button {
+        width: 30%;
+        font-size: small;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .first-right-div {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .first-left-div {
+        width: 80%;
+    }
+}

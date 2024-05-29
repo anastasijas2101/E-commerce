@@ -25,3 +25,15 @@
     margin-left: auto;
     gap: 15px;
 }
+
+@media only screen and (max-width: 620px) {
+    .navigation-style {
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .navigation-style {
+        font-size: small;
+    }
+}
