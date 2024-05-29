@@ -1,11 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navigation from './features/Navigation/Navigation'
 import Home from './features/Home/Home'
+import AboutUs from './features/AboutUs/AboutUs'
 import Products from './features/Products/Products'
 import HowToOrder from './features/HowToOrder/HowToOrder'
-import AboutUs from './features/AboutUs/AboutUs'
 import ContactUs from './features/ContactUs/ContactUs'
 import './App.css'
+
 
 function App() {
 
