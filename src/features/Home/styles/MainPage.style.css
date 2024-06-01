@@ -99,9 +99,16 @@
     .first-right-div {
         flex-direction: column;
         gap: 30px;
+        padding-top: 40px;
+        height: 625px;
     }
 
     .first-left-div {
         width: 80%;
+        padding-bottom: 40px;
+    }
+
+    .first-right-div img {
+        width: 50%;
     }
 }
