@@ -1,9 +1,15 @@
 .third-div {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    padding: 100px;
+    padding: 75px;
     align-items: center;
+}
+
+.inner-third-div {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 4px 4px 2px rgba(.2, .2, .2, .2);
+    border: 2px solid #E1AFD1;
 }
 
 .left-third-div {
@@ -11,13 +17,10 @@
     color: #850F8D;
     display: flex;
     flex-direction: column;
-    max-width: 600px;
+    max-width: 500px;
     width: 100%;
-    height: 450px;
     padding: 40px;
     gap: 20px;
-    box-shadow: 0px 4px 4px 2px rgba(.2, .2, .2, .2);
-    border: 2px solid #E1AFD1;
 }
 
 .left-third-div h1 {
@@ -32,13 +35,48 @@
 }
 
 .right-third-div {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    border: 2px solid #E1AFD1;
-    box-shadow: 2px 4px 4px 2px rgba(.2, .2, .2, .2);
-    border-left: 0px;
 }
 
 .right-third-div img {
-    max-width: 445px;
+    max-width: 500px;
     width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .left-third-div h1 {
+        font-size: 28px;
+    }
+
+    .right-third-div img {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .left-third-div h1 {
+        font-size: 25px;
+    }
+
+    .left-third-div p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .inner-third-div {
+        flex-direction: column;
+    }
+
+    .right-third-div img {
+        width: 60%;
+    }
+
+    .left-third-div button {
+        width: 35%;
+        height: 40px;
+        font-size: 16px;
+    }
 }

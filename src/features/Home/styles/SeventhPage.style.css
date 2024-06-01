@@ -12,3 +12,14 @@
     font-size: small;
     color: rgba(245, 245, 245, 0.614);
 }
+
+@media only screen and (max-width: 620px) {
+    .seventh-div {
+        padding-bottom: 30px;
+        padding-top: 50px;
+    }
+
+    .seventh-div footer {
+        text-align: center;
+    }
+}
