@@ -1,11 +1,12 @@
 import './ContactUs.style.css'
 import location from '../../assets/location-mark.png'
 import phone from '../../assets/phone-icon.png'
+import Button from '../../components/Button/Button'
 
 const ContactUs = () => {
     return (
-        <div>
-            <div>
+        <div className='contactUs-div'>
+            <div className='left-contactUs-div'>
                 <h1>Get in touch</h1>
                 <p>Use our contact form for all information requests or
                     contact us directly using the contact information below.
@@ -13,7 +14,7 @@ const ContactUs = () => {
                     Feel free to get in touch with us via email or phone
                 </p>
                 <hr />
-                <div>
+                <div className='location-div'>
                     <img src={location} alt='locationMark' />
                     <div>
                         <h3>Our Office Location</h3>
@@ -23,7 +24,7 @@ const ContactUs = () => {
                         </p>
                     </div>
                 </div>
-                <div>
+                <div className='phone-div'>
                     <img src={phone} alt='phoneIcon' />
                     <div>
                         <h3>Phone (Landline)</h3>
@@ -31,8 +32,27 @@ const ContactUs = () => {
                     </div>
                 </div>
             </div>
-            <div>
-                <h1>Get started with a free quotation</h1>
+            <div className='right-contactUs-div'>
+                <h3>Get started with a free quotation</h3>
+                <div className='input-div'>
+                    <div>
+                        <p>Name</p>
+                        <input type='text' placeholder='Enter your name'></input>
+                    </div>
+                    <div>
+                        <p>Email</p>
+                        <input type='text' placeholder='Enter a valid email adress'></input>
+                    </div>
+                    <div>
+                        <p>Message</p>
+                        <textarea name='message' placeholder='Enter your message' />
+                    </div>
+                </div>
+                <div className='checkbox-div'>
+                    <input type='checkbox' />
+                    <label>I accept the <span>Terms of Service</span></label>
+                </div>
+                <Button buttonText='Submit your request' />
             </div>
         </div>
     )
