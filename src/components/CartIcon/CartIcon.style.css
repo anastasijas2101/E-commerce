@@ -13,3 +13,18 @@
     width: 100%;
     filter: invert();
 }
+
+.cart-icon span {
+    background-color: rgba(245, 245, 245, 0.744);
+    color: #850F8D;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+}

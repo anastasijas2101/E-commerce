@@ -1,7 +1,5 @@
 import './AboutUs.style.css'
-import firstPhoto from '../../assets/first-group-photo.jpg'
-import secondPhoto from '../../assets/second-group-photo.jpg'
-import thirdPhoto from '../../assets/third-group-photo.jpg'
+import { FirstGroupPhoto, SecondGroupPhoto, ThirdGroupPhoto } from '../../assets'
 
 const AboutUs = () => {
     return (
@@ -11,10 +9,10 @@ const AboutUs = () => {
                     <h1>About Us</h1>
                     <p>HubSpot's company and culture are a lot like our product. They're crafted, not cobbled, for a delightful experience.</p>
                 </div>
-                <img src={firstPhoto} alt="GroupPhoto" />
+                <FirstGroupPhoto />
             </div>
             <div className='middle-aboutUs-div'>
-                <img src={secondPhoto} alt='SecondGroupPhoto' />
+                <SecondGroupPhoto />
                 <div>
                     <h2>Our Mission: Helping Millions of Organizations Grow Better</h2>
                     <p>We believe not just in growing bigger, but in growing better. Growing better means aligning the success of
@@ -36,7 +34,7 @@ const AboutUs = () => {
                         customer platform built on an AI-powered Smart CRM to help millions of scaling organizations grow better
                     </p>
                 </div>
-                <img src={thirdPhoto} alt='ThirdGroupPhoto' />
+                <ThirdGroupPhoto />
             </div>
         </div>
     )

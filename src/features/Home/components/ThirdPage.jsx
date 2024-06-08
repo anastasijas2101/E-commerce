@@ -1,6 +1,6 @@
 import Button from '../../../components/Button/Button';
 import '../styles/ThirdPage.style.css'
-import whiteHeadphones from '../../../assets/white-headphones.webp'
+import { WhiteHeadphones } from '../../../assets';
 
 const ThirdPage = () => {
     return (
@@ -12,7 +12,7 @@ const ThirdPage = () => {
                     <Button buttonText='Sign Up' />
                 </div>
                 <div className='right-third-div'>
-                    <img src={whiteHeadphones} alt='WhiteHeadphones' />
+                    <WhiteHeadphones />
                 </div>
             </div>
         </div>

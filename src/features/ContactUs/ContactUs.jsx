@@ -1,6 +1,5 @@
 import './ContactUs.style.css'
-import location from '../../assets/location-mark.png'
-import phone from '../../assets/phone-icon.png'
+import { PhoneIcon, LocationMark } from '../../assets'
 import Button from '../../components/Button/Button'
 
 const ContactUs = () => {
@@ -15,7 +14,7 @@ const ContactUs = () => {
                 </p>
                 <hr />
                 <div className='location-div'>
-                    <img src={location} alt='locationMark' />
+                    <LocationMark />
                     <div>
                         <h3>Our Office Location</h3>
                         <p>
@@ -25,7 +24,7 @@ const ContactUs = () => {
                     </div>
                 </div>
                 <div className='phone-div'>
-                    <img src={phone} alt='phoneIcon' />
+                    <PhoneIcon />
                     <div>
                         <h3>Phone (Landline)</h3>
                         <p>+912 3 567 8987</p>
