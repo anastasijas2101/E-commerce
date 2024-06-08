@@ -18,7 +18,8 @@ const Cart = () => {
     return (
         <div className='cart-style'>
             {cart.length ? (<>
-                <p>Your items:</p>
+                <h3>Your items:</h3>
+                <hr />
                 <div className='item-list'>
                     {cart.map((item) => (
                         <div className='item-in-list' key={item.id}>
@@ -27,17 +28,37 @@ const Cart = () => {
                             <div className="quantity-style">
                                 <span onClick={() => decrementItem(item.id)}>-</span>
                                 <span>{item.quantity}</span>
-                                <span onClick={() => incrementItem(item.id)}>+</span>
+                                <span onClick={() => incrementItem(item)}>+</span>
                             </div>
                             <p>${handlePrice(item)}</p>
                             <img src={binIcon} className='bin-image' alt='bin-image' onClick={() => { deleteItem(item.id) }} />
                         </div>
                     ))}
                 </div>
-                <p className='total-price'>Total: ${total.toFixed(2)}</p>
+                <hr />
+                <div className='promocode-style'>
+                    <input type='text' placeholder='Promocode' />
+                    <Button buttonText='Apply' />
+                </div>
+                <hr />
+                <div className='subtotal-style'>
+                    <h4>Subtotal</h4>
+                    <p>${total.toFixed(2)}</p>
+                </div>
+                <div className='discount-style'>
+                    <h5>Discount</h5>
+                    <p>(20%) - $156.20 </p>
+                </div>
+                <hr />
+                <div className='total-style'>
+                    <h4>Total:</h4>
+                    <p>${total.toFixed(2)}</p>
+                </div>
                 <Button className='checkout-button' buttonText='Proceed to checkout' />
                 <Button className='clear-cart' handleClick={clearCart} buttonText='Clear cart' />
-            </>) : (<h2>No items in cart</h2>)}
+            </>) : (<>
+                <h2 className='no-items'>No items in cart</h2>
+            </>)}
         </div>
     )
 }
