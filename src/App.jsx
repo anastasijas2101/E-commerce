@@ -6,6 +6,7 @@ import ContactUs from './features/ContactUs/ContactUs'
 import Products from './features/Products/Products'
 import HowToOrder from './features/HowToOrder/HowToOrder'
 import './App.css'
+import Checkout from './features/Cart/components/Checkout'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/howToOrder' element={<HowToOrder />} />
           <Route path='/aboutUs' element={<AboutUs />} />
           <Route path='/contactUs' element={<ContactUs />} />
+          <Route path='/checkout' element={<Checkout />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -13,7 +13,7 @@ import secondGroupPhoto from './second-group-photo.jpg'
 import thirdGroupPhoto from './third-group-photo.jpg'
 import locationMark from './location-mark.png'
 import phoneIcon from './phone-icon.png'
-import binImage from './bin-image.png'
+import lockIcon from './lock-icon.png'
 
 const CuriousCat = () => {
     return <img src={curiousCatLogo} alt="curious-cat-logo" />
@@ -72,7 +72,11 @@ const PhoneIcon = () => {
 }
 
 const LocationMark = () => {
-    return <img src={locationMark} alt='location-marl' />
+    return <img src={locationMark} alt='location-mark' />
+}
+
+const LockIcon = () => {
+    return <img src={lockIcon} alt='lock-icon' />
 }
 
 export {
@@ -91,4 +95,5 @@ export {
     ThirdGroupPhoto,
     PhoneIcon,
     LocationMark,
+    LockIcon,
 }

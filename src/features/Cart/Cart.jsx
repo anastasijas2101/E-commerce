@@ -2,8 +2,10 @@ import { useCartStore } from '../../stores/cart.store';
 import './Cart.style.css'
 import binIcon from '../../assets/bin-image.png'
 import Button from '../../components/Button/Button'
+import { useNavigate } from 'react-router-dom';
 
 const Cart = () => {
+    const router = useNavigate();
     const { cart, deleteItem, clearCart, incrementItem, decrementItem } = useCartStore();
 
     const total = cart.reduce(
@@ -14,6 +16,10 @@ const Cart = () => {
         const totalItemPrice = item.price * item.quantity;
         return totalItemPrice.toFixed(2);
     };
+
+    const openCheckout = () => {
+        router('/checkout');
+    }
 
     return (
         <div className='cart-style'>
@@ -54,7 +60,7 @@ const Cart = () => {
                     <h4>Total:</h4>
                     <p>${total.toFixed(2)}</p>
                 </div>
-                <Button className='checkout-button' buttonText='Proceed to checkout' />
+                <Button className='checkout-button' handleClick={openCheckout} buttonText='Proceed to checkout' />
                 <Button className='clear-cart' handleClick={clearCart} buttonText='Clear cart' />
             </>) : (<>
                 <h2 className='no-items'>No items in cart</h2>
