@@ -1,6 +1,6 @@
 import '../styles/MainPage.style.css'
 import Button from '../../../components/Button/Button';
-import headphones from '../../../assets/headphones.png'
+import { MainHeadphones } from '../../../assets';
 
 const MainPage = () => {
     return (
@@ -13,7 +13,7 @@ const MainPage = () => {
                 </p>
                 <Button buttonText="Order Now" />
             </div>
-            <img src={headphones} alt="headphonesImage" />
+            <MainHeadphones />
         </div>
     )
 }

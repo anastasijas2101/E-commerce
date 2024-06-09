@@ -1,10 +1,14 @@
 import './CartIcon.style.css'
-import cart from '../../assets/cart-icon.png'
+import { CartIconLogo } from '../../assets'
+import { useCartStore } from '../../stores/cart.store'
 
-const CartIcon = () => {
+const CartIcon = ({ handleClick }) => {
+    const { cart } = useCartStore();
+
     return (
-        <div className='cart-icon'>
-            <img src={cart} alt='cartIcon' />
+        <div className='cart-icon' onClick={handleClick}>
+            <span>{cart.length}</span>
+            <CartIconLogo />
         </div>
     )
 }

@@ -7,8 +7,6 @@ import Products from './features/Products/Products'
 import HowToOrder from './features/HowToOrder/HowToOrder'
 import './App.css'
 
-
-
 function App() {
 
 

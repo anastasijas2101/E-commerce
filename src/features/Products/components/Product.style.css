@@ -22,18 +22,7 @@
 .product-div button:hover {
     background-color: whitesmoke;
     border: 2px solid #e1afd194;
-    color: black;
-}
-
-.favorite-heart-icon img {
-    width: 30px;
-    height: 30px;
-    border: 2px solid rgb(59, 58, 58);
-    padding: 2px;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 2;
-    transform: translate(850%, 30%);
+    color: #850f8dbb;
 }
 
 .product-div p {
