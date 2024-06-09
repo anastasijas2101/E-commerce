@@ -1,0 +1,143 @@
+.checkout-div {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.delivery-address-div {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #e1afd1;
+    padding: 20px;
+    border-radius: 10px;
+    color: #850f8dbb;
+}
+
+.delivery-address-div input {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #850f8dbb;
+}
+
+.first-last-name {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-last-name input {
+    max-width: 400px;
+    width: 100%;
+}
+
+.city-state-ZIP-div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.city-state-ZIP-div input {
+    max-width: 800px;
+    width: 100%;
+}
+
+.city-state-ZIP-div select {
+    max-width: 150px;
+    width: 100%;
+    border: 1px solid #850f8dbb;
+    border-radius: 5px;
+}
+
+.checkbox-billing-address-div {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.checkbox-billing {
+    max-width: 20px;
+    width: 100%;
+    border: 1px solid #850f8dbb;
+}
+
+.contact-info-div {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #e1afd1;
+    padding: 20px;
+    border-radius: 10px;
+    color: #850f8dbb;
+}
+
+.email-phone-div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    max-width: 800px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-phone-div input {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #850f8dbb;
+    max-width: 400px;
+    width: 100%;
+}
+
+.privacy-div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: small;
+    align-items: center;
+}
+
+.privacy-div span {
+    font-weight: bold;
+}
+
+.privacy-div img {
+    max-width: 15px;
+    width: 100%;
+}
+
+.text-alerts-checkbox-div {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.text-alerts {
+    max-width: 20px;
+    width: 100%;
+    border: 1px solid #850f8dbb;
+}
+
+.checkout-div button {
+    max-width: 400px;
+    width: 100%;
+    margin-left: 400px;
+    background-color: #e1afd194;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+}
+
+.checkout-div button:hover {
+    background-color: whitesmoke;
+    border: 2px solid #e1afd194;
+    color: #850f8dbb;
+}
