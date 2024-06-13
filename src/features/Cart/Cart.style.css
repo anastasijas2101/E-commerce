@@ -2,17 +2,17 @@
     position: absolute;
     top: 3.5rem;
     right: 2rem;
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
     padding: 15px;
     border-radius: 8px;
-    background-color: #eacee1;
+    background-color: whitesmoke;
     border: 2px solid #C738BD;
     max-height: 500px;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    color: #850f8dbb;
+    color: black;
 
 }
 
@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: #850f8d76;
+    background-color: black;
     border: none;
     height: 2px;
     padding: 1px;
@@ -47,23 +47,23 @@
 .item-in-list {
     display: flex;
     flex-direction: row;
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
+    height: 60px;
     justify-content: space-between;
     align-items: center;
-    background-color: #d63ecc;
-    color: #e9dce5;
+    background-color: whitesmokes;
+    color: black;
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, .2);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .item-list-image {
     max-width: 50px;
     width: 100%;
     margin-left: 10px;
-    background-color: #e1afd195;
     border-radius: 5px;
 }
 
@@ -74,14 +74,13 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
-    font-size: 14px;
+    font-size: 16px;
     padding: 5px;
 }
 
 .bin-image {
     max-width: 20px;
     width: 100%;
-    filter: invert();
     margin-right: 10px;
 }
 
@@ -89,9 +88,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 10px;
-    padding: 0px;
+    padding: 10px;
     margin: 0px;
 }
 
@@ -100,15 +99,29 @@
     border: none;
     max-width: 300px;
     width: 100%;
-    height: 30px;
+    height: 40px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, .2);
 }
 
 .promocode-style input::placeholder {
     padding-left: 10px;
 }
 
+.promocode-button {
+    max-width: 100px !important;
+    width: 100%;
+    height: 40px !important;
+    border-radius: 30px !important;
+    font-size: 14px !important;
+}
+
+.checkout-button {
+    background-color: #d63ecc !important;
+    color: whitesmoke !important;
+}
+
 .cart-style button {
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
     padding: 10px;
     margin-bottom: 5px;
@@ -139,6 +152,7 @@ h4 {
 
 .total-style {
     padding-bottom: 20px;
+    font-size: 20px;
 }
 
 .no-items {
