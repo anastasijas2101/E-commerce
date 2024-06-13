@@ -44,7 +44,7 @@ const Cart = () => {
                 <hr />
                 <div className='promocode-style'>
                     <input type='text' placeholder='Promocode' />
-                    <Button buttonText='Apply' />
+                    <Button className='promocode-button' buttonText='Apply' />
                 </div>
                 <hr />
                 <div className='subtotal-style'>

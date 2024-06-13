@@ -1,7 +1,6 @@
 import './Product.style.css'
 import Button from '../../../components/Button/Button'
-import ratingStars from '../../../assets/rating-stars.png'
-import favoriteIcon from '../../../assets/favorite-heart.webp'
+import starRating from '../../../assets/star-rating.svg'
 import { useCartStore } from '../../../stores/cart.store'
 
 const Product = ({ item }) => {
@@ -19,7 +18,7 @@ const Product = ({ item }) => {
                 <h3>${item.price}</h3>
             </div>
             <p>{item.description}</p>
-            <img className='rating-stars' src={ratingStars} alt='ratingStars' />
+            <img className='rating-stars' src={starRating} alt='ratingStars' />
             <Button buttonText='Add to Cart' handleClick={() => handleAdd(item)} />
         </div>
     )
