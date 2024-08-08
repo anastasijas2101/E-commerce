@@ -19,7 +19,6 @@ const Navigation = () => {
                 <div className="navigation-links">
                     <Link to={{ pathname: '/' }}>Home</Link>
                     <Link to={{ pathname: '/products' }}>Products</Link>
-                    <Link to={{ pathname: '/howToOrder' }}>How To Order?</Link>
                     <Link to={{ pathname: '/aboutUs' }}>About Us</Link>
                     <Link to={{ pathname: '/contactUs' }}>Contact Us</Link>
                 </div>
